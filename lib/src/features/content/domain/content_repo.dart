@@ -14,7 +14,7 @@ List<Content> onboardingContent = [
         "🤓 Begrifflichkeiten\n"
         "🧐 Was ist Google ML Kit?\n"
         "🔡 Text Recognition\n"
-        "📷 Image Labelling\n"
+        //"📷 Image Labelling\n"
         "❓ Fragen\n",
   ),
   Content(
