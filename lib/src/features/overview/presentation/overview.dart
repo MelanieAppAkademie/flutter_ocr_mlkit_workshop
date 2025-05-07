@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ocr_mlkit_workshop/src/features/textrecognition/presentation/text_recognition.dart';
 import 'package:flutter_ocr_mlkit_workshop/src/features/topics/googleml_screen.dart';
 import 'package:flutter_ocr_mlkit_workshop/src/features/topics/onboarding_screen.dart';
 import 'package:flutter_ocr_mlkit_workshop/src/features/overview/domain/topic.dart';
@@ -7,7 +8,7 @@ import 'package:flutter_ocr_mlkit_workshop/src/features/topics/textrec_topic.dar
 List<Topic> topics = [
   Topic("Einführung", OnboardingScreen()),
   Topic("Google ML Kit", GooglemlScreen()),
-  Topic("Text Recognition", TextRecTopicScreen()),
+  Topic("Text Recognition", TextRecognitionScreen()),
   // Topic("Image Labelling", GooglemlScreen()),
 ];
 
