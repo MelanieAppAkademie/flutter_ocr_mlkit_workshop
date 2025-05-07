@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ocr_mlkit_workshop/src/features/onboarding/domain/content_repo.dart';
+import 'package:flutter_ocr_mlkit_workshop/src/features/onboarding/presentation/content_screen.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
@@ -7,18 +9,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        body: SafeArea(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              Text("Workshop"),
-              Text("Thema: Flutter OCR und Google ML Kit"),
-            ],
-          ),
-        ),
-      ),
+      home: ContentScreen(content: contentOnBoarding),
     );
   }
 }
