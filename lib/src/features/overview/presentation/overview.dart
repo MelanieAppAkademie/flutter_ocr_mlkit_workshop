@@ -8,7 +8,7 @@ List<Topic> topics = [
   Topic("Einführung", OnboardingScreen()),
   Topic("Google ML Kit", GooglemlScreen()),
   Topic("Text Recognition", TextRecTopicScreen()),
-  Topic("Image Labelling", GooglemlScreen()),
+  // Topic("Image Labelling", GooglemlScreen()),
 ];
 
 List<Icon> icons = [
