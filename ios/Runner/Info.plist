@@ -45,5 +45,11 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Die App benötigt Zugriff auf die Bildergalerie, um das package image_picker verwenden zu können</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Die App benötigt Kamerazugriff, um das package Camera verwenden zu können</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Die App benötigt Mikrofonzugriff, um das package Camera verwenden zu können</string>
 </dict>
 </plist>
