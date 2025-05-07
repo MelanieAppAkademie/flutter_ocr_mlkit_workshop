@@ -1,4 +1,4 @@
-import 'package:flutter_ocr_mlkit_workshop/src/features/content/presentation/content_screen.dart';
+import 'package:flutter_ocr_mlkit_workshop/src/features/content/presentation/topic_screen.dart';
 
 class Content {
   final String? image;

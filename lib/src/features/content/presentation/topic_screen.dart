@@ -43,6 +43,7 @@ class _TopicScreenState extends State<TopicScreen> {
                   ),
             ),
           ),
+
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
@@ -122,12 +123,12 @@ class ContentWidget extends StatelessWidget {
                 panEnabled: false,
                 child: Image.asset(
                   image!,
-                  height:
-                      imageScale == ImageScale.small
-                          ? 100
-                          : imageScale == ImageScale.medium
-                          ? 250
-                          : 300,
+                  // height:
+                  //     imageScale == ImageScale.small
+                  //         ? 100
+                  //         : imageScale == ImageScale.medium
+                  //         ? 250
+                  //         : 300,
                   fit: BoxFit.cover,
                 ),
               )

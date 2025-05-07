@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ocr_mlkit_workshop/src/features/overview/presentation/overview.dart';
+import 'package:flutter_ocr_mlkit_workshop/src/features/topics/onboarding_screen.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
@@ -8,7 +8,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: OverviewScreen(),
+      home: OnboardingScreen(),
     );
   }
 }
